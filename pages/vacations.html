@@ -55,24 +55,23 @@
       <h2>Trámite</h2>
 
       <label>📅 Fecha de Salida</label>
-      <input type="text" value="30/07/2026">
+      <input type="date" id="startDateInput">
 
       <label>📅 Fecha de Retorno</label>
-      <input type="text" value="06/08/2026">
+      <input type="date" id="endDateInput">
 
       <label>🏷 Saldo de Vacaciones</label>
-      <input type="text" value="20.13" disabled>
+      <input type="text" id="balanceInput" value="" disabled>
 
       <label>🏷 Días</label>
-      <div class="input-with-button">
-        <input type="text" value="5">
-        <button type="button">🔄</button>
-      </div>
+      <input type="text" id="daysInput" value="" disabled>
 
       <label>💬 Coordinaciones / Comentarios</label>
-      <textarea rows="4"></textarea>
+      <textarea id="commentsInput" rows="4"></textarea>
 
-      <button type="submit" class="save-button">Guardar 💾</button>
+      <p id="vacationError" class="error"></p>
+
+      <button type="button" id="saveButton" class="save-button">Guardar 💾</button>
     </section>
 
   </main>
