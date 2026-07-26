@@ -5,7 +5,7 @@ document.getElementById('loginForm').addEventListener('submit', async (event) =>
   const errorMessage = document.getElementById('errorMessage');
 
   try {
-    const response = await fetch('users.json');
+    const response = await fetch('data/users.json');
     const users = await response.json();
     const foundUser = users.find(user => user.username === username && user.password === password);
 
@@ -17,6 +17,6 @@ document.getElementById('loginForm').addEventListener('submit', async (event) =>
       errorMessage.textContent = 'Usuario o contraseña incorrectos.';
     }
   } catch (err) {
-    errorMessage.textContent = 'No se pudo validar. Verifica que users.json esté accesible.';
+    errorMessage.textContent = 'No se pudo validar. Verifica que data/users.json esté accesible.';
   }
 });

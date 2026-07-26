@@ -21,7 +21,7 @@ const roleLabel = document.querySelector('.role-label');
 const loggedUser = JSON.parse(sessionStorage.getItem('loggedUser'));
 
 if (!loggedUser) {
-  window.location.href = '../login.html';
+  window.location.href = '../index.html';
 } else {
   welcomeMessage.textContent = `BIENVENIDO, ${loggedUser.name}`;
   roleLabel.textContent = loggedUser.role;
@@ -31,7 +31,7 @@ if (!loggedUser) {
 // Log out: clear the session and go back to the login page
 document.getElementById('logoutBtn').addEventListener('click', () => {
   sessionStorage.removeItem('loggedUser');
-  window.location.href = '../login.html';
+  window.location.href = '../index.html';
 });
 
 // Load sidebar nav items from menu.json, filtered by user role
@@ -40,7 +40,7 @@ async function loadNavMenu(role) {
   const currentPage = location.pathname.split('/').pop();
 
   try {
-    const response = await fetch('../menu.json');
+    const response = await fetch('../data/menu.json');
     const menu = await response.json();
     const items = menu[role] || [];
 
