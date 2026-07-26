@@ -1,0 +1,31 @@
+{
+  "empleado": [
+    {
+      "label": "Principal",
+      "icon": "💲",
+      "href": "main.html"
+    },
+    {
+      "label": "Solicitar Vacaciones",
+      "icon": "🧳",
+      "href": "vacations.html"
+    },
+    {
+      "label": "Mis Solicitudes",
+      "icon": "📄",
+      "href": "#"
+    }
+  ],
+  "administrador": [
+    {
+      "label": "Principal",
+      "icon": "💲",
+      "href": "main.html"
+    },
+    {
+      "label": "Reportes Generales",
+      "icon": "📊",
+      "href": "#"
+    }
+  ]
+}

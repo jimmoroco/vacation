@@ -1,0 +1,299 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f2f2f2;
+  color: #333;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  background: #2b2b2b;
+  color: #ccc;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  transition: left 0.25s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-logo {
+  text-align: center;
+  padding: 24px 12px;
+  border-bottom: 1px solid #3d3d3d;
+}
+
+.logo-circle {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
+  border-radius: 50%;
+  background: #e31d3c;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.company-name {
+  font-size: 11px;
+  font-weight: bold;
+  color: #eee;
+  margin: 4px 0;
+}
+
+.role-label {
+  font-size: 12px;
+  color: #e31d3c;
+  font-weight: bold;
+  margin: 0;
+}
+
+.sidebar nav {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 0;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.sidebar nav a {
+  color: #bbb;
+  text-decoration: none;
+  padding: 14px 20px;
+  font-size: 14px;
+}
+
+.sidebar nav a:hover,
+.sidebar nav a.active {
+  background: #e31d3c;
+  color: #fff;
+}
+
+.logout-button {
+  border: none;
+  border-top: 1px solid #3d3d3d;
+  background: rgba(227, 29, 60, 0.12);
+  color: #ff6b81;
+  text-align: left;
+  padding: 16px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.logout-button:hover {
+  background: #e31d3c;
+  color: #fff;
+}
+
+/* Main area */
+.main {
+  margin-left: 220px;
+}
+
+.brand-header {
+  background: #fff url('') no-repeat right;
+  padding: 20px 32px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.brand-logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #003399;
+}
+
+.user-bar {
+  background: #e31d3c;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 24px;
+  font-size: 12px;
+  letter-spacing: 0.3px;
+}
+
+.user-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #17a589;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.content {
+  padding: 20px 32px 48px;
+}
+
+.page-title {
+  font-size: 20px;
+  font-weight: normal;
+  color: #555;
+  margin: 0 0 20px;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+.card-header {
+  color: #fff;
+  padding: 14px 18px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.card-header.teal { background: #17a589; }
+.card-header.red { background: #e31d3c; }
+
+.card-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.card-list li {
+  padding: 12px 18px;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+}
+
+.card-list li:last-child { border-bottom: none; }
+
+.banner {
+  color: #fff;
+  padding: 18px;
+  font-size: 16px;
+  font-weight: bold;
+  min-height: 56px;
+}
+
+.banner.blue { background: #2196d8; }
+.banner.orange {
+  background: #d98d2b;
+  text-align: center;
+}
+
+.vacation-info {
+  background: #fff;
+  color: #333;
+  margin-top: 12px;
+  padding: 16px;
+  border-radius: 4px;
+  font-weight: normal;
+}
+
+.vacation-info strong {
+  display: block;
+  font-size: 20px;
+  color: #d98d2b;
+  margin-bottom: 6px;
+}
+
+.vacation-info p {
+  margin: 0;
+  font-size: 13px;
+  color: #555;
+}
+
+/* Mobile menu toggle */
+.menu-toggle {
+  display: none;
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  z-index: 30;
+  background: #2b2b2b;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  width: 38px;
+  height: 38px;
+  font-size: 18px;
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  z-index: 15;
+}
+
+.overlay.show { display: block; }
+
+@media (max-width: 768px) {
+  .sidebar {
+    left: -220px;
+  }
+  .sidebar.open {
+    left: 0;
+  }
+  .main {
+    margin-left: 0;
+  }
+  .menu-toggle {
+    display: block;
+  }
+  .brand-header {
+    padding: 16px 16px 16px 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 25;
+  }
+  .user-bar {
+    position: fixed;
+    top: 64px;
+    left: 0;
+    right: 0;
+    z-index: 24;
+  }
+  .welcome-message {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .content {
+    padding: 16px;
+    padding-top: 112px;
+  }
+  .cards-grid {
+    grid-template-columns: 1fr;
+  }
+  .logout-button {
+    padding: 18px 20px calc(18px + env(safe-area-inset-bottom));
+    font-size: 15px;
+    text-align: center;
+    background: #e31d3c;
+    color: #fff;
+    border-top: none;
+  }
+}

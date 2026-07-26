@@ -1,0 +1,14 @@
+[
+  {
+    "username": "74964249",
+    "password": "12345678",
+    "name": "ALIAGA MONTES MALLORY SHIRLEY",
+    "role": "empleado"
+  },
+  {
+    "username": "admin",
+    "password": "admin123",
+    "name": "ADMINISTRADOR SISTEMA",
+    "role": "administrador"
+  }
+]

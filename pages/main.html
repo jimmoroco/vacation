@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<title>Principal</title>
+<link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+
+<button id="menuToggle" class="menu-toggle" aria-label="Abrir menú">☰</button>
+<div id="overlay" class="overlay"></div>
+
+<aside id="sidebar" class="sidebar">
+  <div class="sidebar-logo">
+    <span class="logo-circle">☁</span>
+    <p class="company-name">INTIDEV</p>
+    <p class="role-label">Empleados</p>
+  </div>
+  <nav id="sidebarNav"></nav>
+
+  <button id="logoutBtn" class="logout-button">⏻ Cerrar Sesión</button>
+</aside>
+
+<div class="main">
+  <header class="brand-header">
+    <span class="brand-logo">INTIDEV</span>
+  </header>
+
+  <div class="user-bar">
+    <span class="welcome-message">BIENVENIDO</span>
+    <!-- <div class="user-actions">
+      <span class="gear">⚙ ▾</span>
+      <span class="avatar">M</span>
+    </div> -->
+  </div>
+
+  <main class="content">
+    <h1 class="page-title">Principal</h1>
+
+    <div class="cards-grid">
+      <!-- <section class="card">
+        <div class="card-header teal">📄 Mis Boletas</div>
+        <ul class="card-list">
+          <li>Boleta de junio</li>
+          <li>Boleta de mayo</li>
+          <li>Boleta de abril</li>
+          <li>Boleta de marzo</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <div class="card-header red">📑 Mis Certificados</div>
+        <ul class="card-list">
+          <li>Certificado AFP</li>
+          <li>Certificado de QUINTA</li>
+          <li>Certificado de UTILIDADES</li>
+          <li>Certificado CTS</li>
+        </ul>
+      </section>
+
+      <section class="card banner blue">
+        <span>📁 Mis Formatos</span>
+      </section> -->
+
+      <section class="card banner orange">
+        <span>🧳 Saldo de Vacaciones</span>
+        <div class="vacation-info">
+          <strong>20.13 días calendario</strong>
+          <p>al cierre del mes de Junio</p>
+        </div>
+      </section>
+    </div>
+  </main>
+</div>
+
+<script src="../js/common.js"></script>
+</body>
+</html>

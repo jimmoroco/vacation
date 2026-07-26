@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<title>Solicitud de Vacaciones</title>
+<link rel="stylesheet" href="../css/main.css">
+<link rel="stylesheet" href="../css/vacations.css">
+</head>
+<body>
+
+<button id="menuToggle" class="menu-toggle" aria-label="Abrir menú">☰</button>
+<div id="overlay" class="overlay"></div>
+
+<aside id="sidebar" class="sidebar">
+  <div class="sidebar-logo">
+    <span class="logo-circle">☁</span>
+    <p class="company-name">INTIDEV</p>
+    <p class="role-label">Empleados</p>
+  </div>
+  <nav id="sidebarNav"></nav>
+
+  <button id="logoutBtn" class="logout-button">⏻ Cerrar Sesión</button>
+</aside>
+
+<div class="main">
+  <header class="brand-header">
+    <span class="brand-logo">INTIDEV</span>
+  </header>
+
+  <div class="user-bar">
+    <span class="welcome-message">BIENVENIDO</span>
+  </div>
+
+  <main class="content vacation-content">
+
+    <section class="intro-section">
+      <h2>Solicita tus Vacaciones</h2>
+    </section>
+
+    <section class="request-form">
+      <h2>Registra tu solicitud</h2>
+
+      <label>👤 Solicitante</label>
+      <input type="text" value="ALIAGA MONTES MALLORY S" disabled>
+
+      <label>🧑‍💼 Aprobador</label>
+      <div class="input-with-button">
+        <input type="text" value="SHIBATA MIYASHIRO R">
+        <button type="button">🔍</button>
+      </div>
+    </section>
+
+    <section class="procedure-section">
+      <h2>Trámite</h2>
+
+      <label>📅 Fecha de Salida</label>
+      <input type="text" value="30/07/2026">
+
+      <label>📅 Fecha de Retorno</label>
+      <input type="text" value="06/08/2026">
+
+      <label>🏷 Saldo de Vacaciones</label>
+      <input type="text" value="20.13" disabled>
+
+      <label>🏷 Días</label>
+      <div class="input-with-button">
+        <input type="text" value="5">
+        <button type="button">🔄</button>
+      </div>
+
+      <label>💬 Coordinaciones / Comentarios</label>
+      <textarea rows="4"></textarea>
+
+      <button type="submit" class="save-button">Guardar 💾</button>
+    </section>
+
+  </main>
+</div>
+
+<script src="../js/common.js"></script>
+</body>
+</html>
