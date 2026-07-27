@@ -26,6 +26,25 @@ if (!loggedUser) {
   welcomeMessage.textContent = `BIENVENIDO, ${loggedUser.name}`;
   roleLabel.textContent = loggedUser.role;
   loadNavMenu(loggedUser.role);
+  initVacationBalance();
+}
+
+// Seed "vacationRequests" in localStorage from data/vacationRequests.json the first time.
+// After that, new requests are only added to the localStorage copy.
+async function ensureVacationRequestsSeeded() {
+  if (localStorage.getItem('vacationRequests') !== null) return;
+
+  try {
+    const response = await fetch('../data/vacationRequests.json');
+    const seedData = await response.json();
+    localStorage.setItem('vacationRequests', JSON.stringify(seedData));
+  } catch (err) {
+    localStorage.setItem('vacationRequests', JSON.stringify([]));
+  }
+}
+
+async function initVacationBalance() {
+  await ensureVacationRequestsSeeded();
   updateVacationBalanceText();
 }
 

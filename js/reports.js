@@ -8,6 +8,8 @@ const reportState = {
 };
 
 async function loadReportsData() {
+  await ensureVacationRequestsSeeded();
+
   try {
     const response = await fetch('../data/users.json');
     reportState.users = await response.json();
