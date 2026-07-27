@@ -29,10 +29,22 @@ if (!loggedUser) {
   initVacationBalance();
 }
 
-// Seed "vacationRequests" in localStorage from data/vacationRequests.json the first time.
-// After that, new requests are only added to the localStorage copy.
+// Seed "vacationRequests" in localStorage from data/vacationRequests.json.
+// It re-seeds (overwriting whatever is in localStorage) only when data/version.json
+// changes compared to the version last stored locally — that signals the mock data changed.
 async function ensureVacationRequestsSeeded() {
-  if (localStorage.getItem('vacationRequests') !== null) return;
+  let remoteVersion = null;
+  try {
+    const versionResponse = await fetch('../data/version.json');
+    remoteVersion = (await versionResponse.json()).dataVersion;
+  } catch (err) {
+    remoteVersion = null;
+  }
+
+  const storedVersion = localStorage.getItem('dataVersion');
+  const alreadySeeded = localStorage.getItem('vacationRequests') !== null;
+
+  if (alreadySeeded && (remoteVersion === null || remoteVersion === storedVersion)) return;
 
   try {
     const response = await fetch('../data/vacationRequests.json');
@@ -40,6 +52,10 @@ async function ensureVacationRequestsSeeded() {
     localStorage.setItem('vacationRequests', JSON.stringify(seedData));
   } catch (err) {
     localStorage.setItem('vacationRequests', JSON.stringify([]));
+  }
+
+  if (remoteVersion !== null) {
+    localStorage.setItem('dataVersion', remoteVersion);
   }
 }
 
