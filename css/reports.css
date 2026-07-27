@@ -1,0 +1,132 @@
+.table-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.entries-label,
+.search-label {
+  font-size: 13px;
+  color: #555;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+#pageSizeSelect,
+#searchInput {
+  padding: 6px 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+.export-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #1e7e34;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 16px;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+
+.export-button:hover {
+  filter: brightness(1.05);
+}
+
+.table-wrap {
+  overflow-x: auto;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.reports-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+  min-width: 720px;
+}
+
+.reports-table thead {
+  background: #2b2b2b;
+  color: #fff;
+}
+
+.reports-table th,
+.reports-table td {
+  padding: 12px 14px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.reports-table tbody tr:hover {
+  background: #f9f9f9;
+}
+
+.empty-row {
+  text-align: center;
+  color: #999;
+  padding: 24px;
+}
+
+.table-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 16px;
+  font-size: 13px;
+  color: #555;
+}
+
+.pagination-controls {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+.pagination-controls button {
+  border: 1px solid #ddd;
+  background: #fff;
+  color: #333;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.pagination-controls button.active {
+  background: #e31d3c;
+  color: #fff;
+  border-color: #e31d3c;
+}
+
+.pagination-controls button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+  .table-toolbar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  #searchInput {
+    width: 100%;
+  }
+  .table-footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

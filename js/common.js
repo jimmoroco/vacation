@@ -56,6 +56,29 @@ document.getElementById('logoutBtn').addEventListener('click', () => {
   window.location.href = '../index.html';
 });
 
+// Show a small notification that fades out on its own after a few seconds
+function showToast(message) {
+  let container = document.getElementById('toastContainer');
+  if (!container) {
+    container = document.createElement('div');
+    container.id = 'toastContainer';
+    container.className = 'toast-container';
+    document.body.appendChild(container);
+  }
+
+  const toast = document.createElement('div');
+  toast.className = 'toast';
+  toast.textContent = message;
+  container.appendChild(toast);
+
+  requestAnimationFrame(() => toast.classList.add('show'));
+
+  setTimeout(() => {
+    toast.classList.remove('show');
+    toast.addEventListener('transitionend', () => toast.remove());
+  }, 3000);
+}
+
 // Load sidebar nav items from menu.json, filtered by user role
 async function loadNavMenu(role) {
   const nav = document.getElementById('sidebarNav');

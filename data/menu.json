@@ -21,7 +21,7 @@
     {
       "label": "Reporte de Vacaciones",
       "icon": "📊",
-      "href": "#",
+      "href": "reports.html",
       "default": true
     }
   ]

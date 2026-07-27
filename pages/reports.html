@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<title>Reporte de Vacaciones</title>
+<link rel="stylesheet" href="../css/main.css">
+<link rel="stylesheet" href="../css/reports.css">
+</head>
+<body>
+
+<button id="menuToggle" class="menu-toggle" aria-label="Abrir menú">☰</button>
+<div id="overlay" class="overlay"></div>
+
+<aside id="sidebar" class="sidebar">
+  <div class="sidebar-logo">
+    <span class="logo-circle">☁</span>
+    <p class="company-name">INTIDEV</p>
+    <p class="role-label">Empleados</p>
+  </div>
+  <nav id="sidebarNav"></nav>
+
+  <button id="logoutBtn" class="logout-button">⏻ Cerrar Sesión</button>
+</aside>
+
+<div class="main">
+  <header class="brand-header">
+    <span class="brand-logo">INTIDEV</span>
+  </header>
+
+  <div class="user-bar">
+    <span class="welcome-message">BIENVENIDO</span>
+  </div>
+
+  <main class="content reports-content">
+    <h1 class="page-title">Reporte de Vacaciones</h1>
+
+    <div class="table-toolbar">
+      <label class="entries-label">
+        Mostrar
+        <select id="pageSizeSelect">
+          <option value="10">10</option>
+          <option value="25">25</option>
+          <option value="50">50</option>
+          <option value="all">Todas</option>
+        </select>
+        Entradas
+      </label>
+
+      <label class="search-label">
+        Buscar:
+        <input type="text" id="searchInput">
+      </label>
+    </div>
+
+    <button id="exportBtn" class="export-button">⬇ Exportar Tabla</button>
+
+    <div class="table-wrap">
+      <table class="reports-table">
+        <thead>
+          <tr>
+            <th>N° Solicitud</th>
+            <th>Apellidos y Nombres</th>
+            <th>N° Documento de Identidad</th>
+            <th>Fecha Inicio</th>
+            <th>Fecha Retorno</th>
+            <th>Días</th>
+            <th>Estado Solicitud</th>
+            <th>Fecha Solicitud</th>
+          </tr>
+        </thead>
+        <tbody id="reportsTableBody"></tbody>
+      </table>
+    </div>
+
+    <div class="table-footer">
+      <span id="paginationInfo"></span>
+      <div id="paginationControls" class="pagination-controls"></div>
+    </div>
+  </main>
+</div>
+
+<script src="../js/common.js"></script>
+<script src="../js/reports.js"></script>
+</body>
+</html>

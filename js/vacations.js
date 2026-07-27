@@ -88,5 +88,10 @@ saveButton.addEventListener('click', () => {
   requests.push(request);
   localStorage.setItem('vacationRequests', JSON.stringify(requests));
 
-  window.location.href = 'main.html';
+  showToast('Solicitud registrada correctamente.');
+
+  // Small delay so the toast is visible before the existing redirect happens
+  setTimeout(() => {
+    window.location.href = 'main.html';
+  }, 1200);
 });

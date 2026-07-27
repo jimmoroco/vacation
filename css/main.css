@@ -248,6 +248,34 @@ body {
 
 .overlay.show { display: block; }
 
+/* Toast notification */
+.toast-container {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.toast {
+  background: #1e7e34;
+  color: #fff;
+  padding: 12px 18px;
+  border-radius: 4px;
+  font-size: 14px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transform: translateX(20px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.toast.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
 @media (max-width: 768px) {
   .sidebar {
     left: -220px;
@@ -287,6 +315,21 @@ body {
   }
   .cards-grid {
     grid-template-columns: 1fr;
+  }
+  .toast-container {
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+  }
+  .toast {
+    border-radius: 0;
+    text-align: center;
+    transform: translateY(-100%);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  }
+  .toast.show {
+    transform: translateY(0);
   }
   .logout-button {
     padding: 18px 20px calc(18px + env(safe-area-inset-bottom));
