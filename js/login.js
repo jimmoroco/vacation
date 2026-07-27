@@ -12,7 +12,16 @@ document.getElementById('loginForm').addEventListener('submit', async (event) =>
     if (foundUser) {
       errorMessage.textContent = '';
       sessionStorage.setItem('loggedUser', JSON.stringify(foundUser));
-      window.location.href = 'pages/main.html';
+
+      const menuResponse = await fetch('data/menu.json');
+      const menu = await menuResponse.json();
+      const roleItems = menu[foundUser.role] || [];
+      const defaultItem = roleItems.find(item => item.default) || roleItems[0];
+      const defaultPage = (defaultItem && defaultItem.href && defaultItem.href !== '#')
+        ? defaultItem.href
+        : 'main.html';
+
+      window.location.href = `pages/${defaultPage}`;
     } else {
       errorMessage.textContent = 'Usuario o contraseña incorrectos.';
     }

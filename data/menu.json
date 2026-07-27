@@ -3,7 +3,8 @@
     {
       "label": "Principal",
       "icon": "💲",
-      "href": "main.html"
+      "href": "main.html",
+      "default": true
     },
     {
       "label": "Solicitar Vacaciones",
@@ -18,9 +19,10 @@
   ],
   "administrador": [
     {
-      "label": "Reportes de Vacaciones",
+      "label": "Reporte de Vacaciones",
       "icon": "📊",
-      "href": "#"
+      "href": "#",
+      "default": true
     }
   ]
 }
