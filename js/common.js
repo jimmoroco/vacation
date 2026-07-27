@@ -26,6 +26,28 @@ if (!loggedUser) {
   welcomeMessage.textContent = `BIENVENIDO, ${loggedUser.name}`;
   roleLabel.textContent = loggedUser.role;
   loadNavMenu(loggedUser.role);
+  updateVacationBalanceText();
+}
+
+// Available vacation balance = users.json balance minus days already requested (in localStorage) for this user
+function getAvailableVacationBalance(user) {
+  if (!user || user.vacationBalance === undefined) return 0;
+
+  const requests = JSON.parse(localStorage.getItem('vacationRequests')) || [];
+  const usedDays = requests
+    .filter(request => request.username === user.username)
+    .reduce((total, request) => total + request.days, 0);
+
+  return user.vacationBalance - usedDays;
+}
+
+// Update the "Saldo de Vacaciones" banner shown in Principal, if present on this page
+function updateVacationBalanceText() {
+  const vacationBalanceText = document.getElementById('vacationBalanceText');
+  if (!vacationBalanceText) return;
+
+  const balance = getAvailableVacationBalance(loggedUser);
+  vacationBalanceText.textContent = `${balance} días calendario`;
 }
 
 // Log out: clear the session and go back to the login page

@@ -1,17 +1,20 @@
 // Fill "Solicitante" and "Aprobador" from the logged-in user's data
-// (loggedUser is already declared and loaded by common.js, which runs first)
+// (loggedUser and getAvailableVacationBalance are declared in common.js, which runs first)
 if (loggedUser) {
   document.getElementById('requesterInput').value = loggedUser.name;
   document.getElementById('approverInput').value = loggedUser.approver || '';
-  document.getElementById('balanceInput').value = loggedUser.vacationBalance ?? '';
 }
 
 const startDateInput = document.getElementById('startDateInput');
 const endDateInput = document.getElementById('endDateInput');
 const daysInput = document.getElementById('daysInput');
+const balanceInput = document.getElementById('balanceInput');
 const commentsInput = document.getElementById('commentsInput');
 const vacationError = document.getElementById('vacationError');
 const saveButton = document.getElementById('saveButton');
+
+const availableBalance = getAvailableVacationBalance(loggedUser);
+balanceInput.value = availableBalance;
 
 // "Fecha de Salida" must be greater than today
 const today = new Date();
@@ -25,9 +28,12 @@ function daysBetween(start, end) {
   return Math.round((end - start) / msPerDay);
 }
 
+// Recalculates "Días" and enables "Guardar" only when both dates are filled and valid.
+// "Coordinaciones / Comentarios" is optional and doesn't affect this check.
 function updateDays() {
   vacationError.textContent = '';
   daysInput.value = '';
+  saveButton.disabled = true;
 
   if (!startDateInput.value || !endDateInput.value) return;
 
@@ -40,13 +46,13 @@ function updateDays() {
     return;
   }
 
-  const balance = loggedUser.vacationBalance ?? 0;
-  if (days > balance) {
-    vacationError.textContent = `Los días solicitados (${days}) exceden tu saldo de vacaciones (${balance}).`;
+  if (days > availableBalance) {
+    vacationError.textContent = `Los días solicitados (${days}) exceden tu saldo de vacaciones (${availableBalance}).`;
     return;
   }
 
   daysInput.value = days;
+  saveButton.disabled = false;
 }
 
 // "Fecha de Retorno" must always be after the selected "Fecha de Salida"
@@ -61,30 +67,9 @@ startDateInput.addEventListener('change', () => {
 endDateInput.addEventListener('change', updateDays);
 
 saveButton.addEventListener('click', () => {
-  vacationError.textContent = '';
-
-  if (!startDateInput.value || !endDateInput.value) {
+  // Safety net in case the button state gets out of sync
+  if (!startDateInput.value || !endDateInput.value || !daysInput.value) {
     vacationError.textContent = 'Debes completar la fecha de salida y la fecha de retorno.';
-    return;
-  }
-
-  const startDate = new Date(startDateInput.value);
-  const endDate = new Date(endDateInput.value);
-  const days = daysBetween(startDate, endDate);
-  const balance = loggedUser.vacationBalance ?? 0;
-
-  if (startDate <= today) {
-    vacationError.textContent = 'La fecha de salida debe ser mayor a la fecha de hoy.';
-    return;
-  }
-
-  if (days <= 0) {
-    vacationError.textContent = 'La fecha de retorno debe ser posterior a la fecha de salida.';
-    return;
-  }
-
-  if (days > balance) {
-    vacationError.textContent = `Los días solicitados (${days}) exceden tu saldo de vacaciones (${balance}).`;
     return;
   }
 
@@ -93,7 +78,7 @@ saveButton.addEventListener('click', () => {
     username: loggedUser.username,
     startDate: startDateInput.value,
     endDate: endDateInput.value,
-    days: days,
+    days: Number(daysInput.value),
     comments: commentsInput.value,
     status: 'PENDIENTE',
     requestDate: new Date().toISOString().slice(0, 10)
@@ -103,5 +88,5 @@ saveButton.addEventListener('click', () => {
   requests.push(request);
   localStorage.setItem('vacationRequests', JSON.stringify(requests));
 
-  alert('Solicitud registrada correctamente.');
+  window.location.href = 'main.html';
 });

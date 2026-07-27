@@ -18,12 +18,7 @@
   ],
   "administrador": [
     {
-      "label": "Principal",
-      "icon": "💲",
-      "href": "main.html"
-    },
-    {
-      "label": "Reportes Generales",
+      "label": "Reportes de Vacaciones",
       "icon": "📊",
       "href": "#"
     }
