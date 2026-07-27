@@ -8,6 +8,910 @@
     "vacationBalance": 20
   },
   {
+    "username": "46960610",
+    "password": "Intidev@0610",
+    "name": "Yauyo Santos Nehemias",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 15
+  },
+  {
+    "username": "46051014",
+    "password": "Intidev@1014",
+    "name": "Ascue Reyes Manuel Alexander",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 20
+  },
+  {
+    "username": "71035684",
+    "password": "Intidev@5684",
+    "name": "Gavilan Quispe Melvin Vicente",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 17
+  },
+  {
+    "username": "48108550",
+    "password": "Intidev@8550",
+    "name": "Justo Naupay Denis",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 30
+  },
+  {
+    "username": "44365494",
+    "password": "Intidev@5494",
+    "name": "Clemente Bernardino Joel Efer",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 22
+  },
+  {
+    "username": "73737470",
+    "password": "Intidev@7470",
+    "name": "Mendoza Bobadilla Juan",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 21
+  },
+  {
+    "username": "47033741",
+    "password": "Intidev@3741",
+    "name": "Tapullima Montes Hernan Segundo",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 28
+  },
+  {
+    "username": "80245244",
+    "password": "Intidev@5244",
+    "name": "Astucuri Ventura Roberto",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 28
+  },
+  {
+    "username": "74597097",
+    "password": "Intidev@7097",
+    "name": "Astucuri Guerra Jack Vily",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 15
+  },
+  {
+    "username": "77098743",
+    "password": "Intidev@8743",
+    "name": "Fretel Campo Yonatan",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 28
+  },
+  {
+    "username": "10108525",
+    "password": "Intidev@8525",
+    "name": "Salcedo Bendezu Freddy",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 21
+  },
+  {
+    "username": "73778255",
+    "password": "Intidev@8255",
+    "name": "Quispe Yauyo Josue Angel",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 27
+  },
+  {
+    "username": "71518189",
+    "password": "Intidev@8189",
+    "name": "Velez Polo Jose Miguel Junior",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 23
+  },
+  {
+    "username": "15300024",
+    "password": "Intidev@0024",
+    "name": "Camones Rosales Nestor Leonil",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 30
+  },
+  {
+    "username": "75468206",
+    "password": "Intidev@8206",
+    "name": "Zamora Valdivia Cristhian",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 21
+  },
+  {
+    "username": "71550196",
+    "password": "Intidev@0196",
+    "name": "Tineo Bendezu Jhonny",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 17
+  },
+  {
+    "username": "10385857",
+    "password": "Intidev@5857",
+    "name": "Solano Asto Juan Hector",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 20
+  },
+  {
+    "username": "70556891",
+    "password": "Intidev@6891",
+    "name": "Rengifo Diaz Reader David",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 24
+  },
+  {
+    "username": "46183051",
+    "password": "Intidev@3051",
+    "name": "Peñaloza Saravia Carlos",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 27
+  },
+  {
+    "username": "76023665",
+    "password": "Intidev@3665",
+    "name": "Lara Pariona Gianfranco Nicola",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 18
+  },
+  {
+    "username": "19925414",
+    "password": "Intidev@5414",
+    "name": "Marcelo Zambrano Jorge Domingo",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 18
+  },
+  {
+    "username": "70972081",
+    "password": "Intidev@2081",
+    "name": "Malabrigo Oviedo Leicter Extuar",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 17
+  },
+  {
+    "username": "72236623",
+    "password": "Intidev@6623",
+    "name": "Chávez Figueroa Jhon Roberth",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 30
+  },
+  {
+    "username": "42285937",
+    "password": "Intidev@5937",
+    "name": "Victorio Benancio Nicanor",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 23
+  },
+  {
+    "username": "71974440",
+    "password": "Intidev@4440",
+    "name": "Pongo Flores Orlando Vladimir",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 19
+  },
+  {
+    "username": "47305598",
+    "password": "Intidev@5598",
+    "name": "Soto Ccollana Junior",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 24
+  },
+  {
+    "username": "43414528",
+    "password": "Intidev@4528",
+    "name": "Martinez Zapata Cesar Alexander",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 30
+  },
+  {
+    "username": "72940263",
+    "password": "Intidev@0263",
+    "name": "Mercedes Julca Gonzalo De Jesus",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 16
+  },
+  {
+    "username": "72849002",
+    "password": "Intidev@9002",
+    "name": "Rojas Cajaleon Henry",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 15
+  },
+  {
+    "username": "70556398",
+    "password": "Intidev@6398",
+    "name": "Gavilan Quispe Elvis",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 26
+  },
+  {
+    "username": "80144850",
+    "password": "Intidev@4850",
+    "name": "Verastegui Mateo Boris Alberto",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 29
+  },
+  {
+    "username": "45498086",
+    "password": "Intidev@8086",
+    "name": "Altamirano Estrella Jhon Hoover",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 27
+  },
+  {
+    "username": "47880833",
+    "password": "Intidev@0833",
+    "name": "Irigoin Benavides Jose Vladimir",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 24
+  },
+  {
+    "username": "74198703",
+    "password": "Intidev@8703",
+    "name": "Saenz Parra Joseph",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 22
+  },
+  {
+    "username": "72704150",
+    "password": "Intidev@4150",
+    "name": "Vazquez Crespin Javier David",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 25
+  },
+  {
+    "username": "72110179",
+    "password": "Intidev@0179",
+    "name": "Pulido Mejia Galy Maycol",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 27
+  },
+  {
+    "username": "46035490",
+    "password": "Intidev@5490",
+    "name": "Goicochea Zapata Yurikoc",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 30
+  },
+  {
+    "username": "44039674",
+    "password": "Intidev@9674",
+    "name": "Muñoz Hermitaño Betsy Silvia",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 20
+  },
+  {
+    "username": "42539426",
+    "password": "Intidev@9426",
+    "name": "Carmen Chorres de Zapata Mónica Magaly",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 18
+  },
+  {
+    "username": "46549781",
+    "password": "Intidev@9781",
+    "name": "Elias Giron Juana Elizabeth",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 27
+  },
+  {
+    "username": "72678964",
+    "password": "Intidev@8964",
+    "name": "Sarango Cruz Marlon Sebastian",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 16
+  },
+  {
+    "username": "71097405",
+    "password": "Intidev@7405",
+    "name": "Muñoz Solorzano Brian Franz",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 16
+  },
+  {
+    "username": "07264482",
+    "password": "Intidev@4482",
+    "name": "Huamali Quiquia Mary Luz",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 16
+  },
+  {
+    "username": "47856083",
+    "password": "Intidev@6083",
+    "name": "Aliaga Montes Jane Helen",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 24
+  },
+  {
+    "username": "74028066",
+    "password": "Intidev@8066",
+    "name": "Quispe Cardenas Lizbeth",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 16
+  },
+  {
+    "username": "72702110",
+    "password": "Intidev@2110",
+    "name": "Valle Chunga Aaron Denilson",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 19
+  },
+  {
+    "username": "18153308",
+    "password": "Intidev@3308",
+    "name": "Del Castillo Chavez Enzo",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 28
+  },
+  {
+    "username": "40269756",
+    "password": "Intidev@9756",
+    "name": "Vicente Flores Kotler Klaus",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 22
+  },
+  {
+    "username": "71138775",
+    "password": "Intidev@8775",
+    "name": "Calixto Solorzano Denis",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 22
+  },
+  {
+    "username": "77797305",
+    "password": "Intidev@7305",
+    "name": "Caruajulca Intor Jhon Deyvis",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 28
+  },
+  {
+    "username": "61054734",
+    "password": "Intidev@4734",
+    "name": "Purihuaman Intor Felipe Duval",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 29
+  },
+  {
+    "username": "45934933",
+    "password": "Intidev@4933",
+    "name": "Solano Alcoser Alex Jefferson",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 23
+  },
+  {
+    "username": "48749617",
+    "password": "Intidev@9617",
+    "name": "Loayza Azorza Dreed Becker",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 29
+  },
+  {
+    "username": "75172197",
+    "password": "Intidev@2197",
+    "name": "Medina Alvitres Francis",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 22
+  },
+  {
+    "username": "46181473",
+    "password": "Intidev@1473",
+    "name": "Calderon Ramirez Eddy Santiago",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 17
+  },
+  {
+    "username": "42281397",
+    "password": "Intidev@1397",
+    "name": "Tumialan Ore Gabriel",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 19
+  },
+  {
+    "username": "47970458",
+    "password": "Intidev@0458",
+    "name": "Aylas Quispe Roy Angel",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 27
+  },
+  {
+    "username": "71244139",
+    "password": "Intidev@4139",
+    "name": "Gomez Huaman Maycol Junior",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 30
+  },
+  {
+    "username": "18139117",
+    "password": "Intidev@9117",
+    "name": "Geronimo Villanueva Elmer Robert",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 30
+  },
+  {
+    "username": "16690148",
+    "password": "Intidev@0148",
+    "name": "Pintado Huatay Jimy Edilberto",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 18
+  },
+  {
+    "username": "19247734",
+    "password": "Intidev@7734",
+    "name": "Vidaurre Meztanza Nicolas",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 20
+  },
+  {
+    "username": "80258260",
+    "password": "Intidev@8260",
+    "name": "Velarde Moran Raul",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 30
+  },
+  {
+    "username": "40194757",
+    "password": "Intidev@4757",
+    "name": "Quispe Obregon Jose Luis",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 20
+  },
+  {
+    "username": "80638751",
+    "password": "Intidev@8751",
+    "name": "Alfaro Gonzalez Dany Alison",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 21
+  },
+  {
+    "username": "43847147",
+    "password": "Intidev@7147",
+    "name": "Gomez Pezo Mac",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 21
+  },
+  {
+    "username": "41690040",
+    "password": "Intidev@0040",
+    "name": "Santamaria Vasquez Lorenzo Francisco",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 23
+  },
+  {
+    "username": "44351231",
+    "password": "Intidev@1231",
+    "name": "Pinedo Pinedo Peterson Jhon",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 22
+  },
+  {
+    "username": "40879822",
+    "password": "Intidev@9822",
+    "name": "Garcia Pinedo Tulio",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 23
+  },
+  {
+    "username": "42386754",
+    "password": "Intidev@6754",
+    "name": "Quispe Obregon Miguel Angel",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 22
+  },
+  {
+    "username": "45874090",
+    "password": "Intidev@4090",
+    "name": "Mercedes Vasquez Jano",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 20
+  },
+  {
+    "username": "44836329",
+    "password": "Intidev@6329",
+    "name": "Pezo Tuisima Christian Percy",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 22
+  },
+  {
+    "username": "70042029",
+    "password": "Intidev@2029",
+    "name": "Seclen Saldaña Jose Jesus",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 23
+  },
+  {
+    "username": "46534455",
+    "password": "Intidev@4455",
+    "name": "Pino Inga Envis",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 19
+  },
+  {
+    "username": "48346039",
+    "password": "Intidev@6039",
+    "name": "Asencio Cruz Mauricio",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 20
+  },
+  {
+    "username": "44847549",
+    "password": "Intidev@7549",
+    "name": "Murayari Ríos Julio",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 28
+  },
+  {
+    "username": "73099035",
+    "password": "Intidev@9035",
+    "name": "Tarazona Gaspar Mario Luis",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 19
+  },
+  {
+    "username": "47422261",
+    "password": "Intidev@2261",
+    "name": "Perez Perez Jose Carlos",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 27
+  },
+  {
+    "username": "44317253",
+    "password": "Intidev@7253",
+    "name": "Guevara Cubas Elver",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 28
+  },
+  {
+    "username": "10047089",
+    "password": "Intidev@7089",
+    "name": "Garamendi Gomez Nixon Gaspar",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 28
+  },
+  {
+    "username": "43648813",
+    "password": "Intidev@8813",
+    "name": "Braga Alvarado Michell",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 20
+  },
+  {
+    "username": "70177344",
+    "password": "Intidev@7344",
+    "name": "Sanjinez Dioses Bryan Paul",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 16
+  },
+  {
+    "username": "02827920",
+    "password": "Intidev@7920",
+    "name": "Sanjinez Nieves Wilmer Nestor",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 29
+  },
+  {
+    "username": "41467784",
+    "password": "Intidev@7784",
+    "name": "Valdera Siesquen Wilmer",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 24
+  },
+  {
+    "username": "72786030",
+    "password": "Intidev@6030",
+    "name": "Valdivia Montalvo Adolfo Hitler",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 16
+  },
+  {
+    "username": "45636245",
+    "password": "Intidev@6245",
+    "name": "Castro Matos Wilmington",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 18
+  },
+  {
+    "username": "47263313",
+    "password": "Intidev@3313",
+    "name": "Gomez Pezo Heber Dan",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 28
+  },
+  {
+    "username": "80231879",
+    "password": "Intidev@1879",
+    "name": "Torres Gomez Willy Clever",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 21
+  },
+  {
+    "username": "61073593",
+    "password": "Intidev@3593",
+    "name": "Iparraguirre Melendez Jerson Andre",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 17
+  },
+  {
+    "username": "43783107",
+    "password": "Intidev@3107",
+    "name": "Juarez Diaz Francisco Genaro",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 16
+  },
+  {
+    "username": "46446236",
+    "password": "Intidev@6236",
+    "name": "Suarez Cortez Nicser",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 18
+  },
+  {
+    "username": "40626335",
+    "password": "Intidev@6335",
+    "name": "Yaicate Teaguas Carlos Alberto",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 28
+  },
+  {
+    "username": "42926487",
+    "password": "Intidev@6487",
+    "name": "Gonzales Melly Jose Javier",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 25
+  },
+  {
+    "username": "41351941",
+    "password": "Intidev@1941",
+    "name": "Yesquen Namuche Ricardo",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 27
+  },
+  {
+    "username": "46997966",
+    "password": "Intidev@7966",
+    "name": "Elias Yesquen Mario Viltamar",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 23
+  },
+  {
+    "username": "02847247",
+    "password": "Intidev@7247",
+    "name": "Zapata Chinchay Martin Guillermo",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 17
+  },
+  {
+    "username": "47148512",
+    "password": "Intidev@8512",
+    "name": "Rafaelo Manuel Andy",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 15
+  },
+  {
+    "username": "75114136",
+    "password": "Intidev@4136",
+    "name": "Rojas Ballesteros Frank Hernan",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 27
+  },
+  {
+    "username": "44929491",
+    "password": "Intidev@9491",
+    "name": "Lopez Tarazona Miguel Angel Maximo",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 25
+  },
+  {
+    "username": "16768798",
+    "password": "Intidev@8798",
+    "name": "Collazos Torres Jose Antonio",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 19
+  },
+  {
+    "username": "44762666",
+    "password": "Intidev@2666",
+    "name": "Pezo Tuisima Huber",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 24
+  },
+  {
+    "username": "40438920",
+    "password": "Intidev@8920",
+    "name": "Acosta Inoñan Julio Cesar",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 29
+  },
+  {
+    "username": "74177134",
+    "password": "Intidev@7134",
+    "name": "Marin Huaman Dilmer",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 17
+  },
+  {
+    "username": "75053908",
+    "password": "Intidev@3908",
+    "name": "Olaya Castro Duber Smith",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 20
+  },
+  {
+    "username": "70034564",
+    "password": "Intidev@4564",
+    "name": "Ordinola Hidalgo Reymi",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 28
+  },
+  {
+    "username": "71745799",
+    "password": "Intidev@5799",
+    "name": "Zarate Tapia Jhordan Oscar",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 16
+  },
+  {
+    "username": "72657956",
+    "password": "Intidev@7956",
+    "name": "Zacarias Marcelo Roberto",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 30
+  },
+  {
+    "username": "48295575",
+    "password": "Intidev@5575",
+    "name": "Huaman de la Cruz Jorge Luis",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 28
+  },
+  {
+    "username": "77065827",
+    "password": "Intidev@5827",
+    "name": "Chavez Acevedo Elmer Ronel",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 25
+  },
+  {
+    "username": "73684856",
+    "password": "Intidev@4856",
+    "name": "Alvarez Pescuas Juan Heberth",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 30
+  },
+  {
+    "username": "41241806",
+    "password": "Intidev@1806",
+    "name": "Espinoza Solorzano Yen Jordan",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 25
+  },
+  {
+    "username": "73196419",
+    "password": "Intidev@6419",
+    "name": "Tantaruna Diaz Jeremy Enrique",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 23
+  },
+  {
+    "username": "75766902",
+    "password": "Intidev@6902",
+    "name": "Fernandez Toledo Armando Robert",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 25
+  },
+  {
+    "username": "74402987",
+    "password": "Intidev@2987",
+    "name": "Pezo Ishuiza Brandy Viery",
+    "role": "empleado",
+    "approver": "Juan Loayza",
+    "vacationBalance": 24
+  },
+  {
     "username": "admin",
     "password": "admin123",
     "name": "Administrador del Sistema",
